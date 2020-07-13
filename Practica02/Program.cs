@@ -35,7 +35,7 @@ namespace Practica02
             length = double.Parse(Console.ReadLine());
             Console.WriteLine("Enter the Breadth for Rectangle");
             breadth = double.Parse(Console.ReadLine());
-            Console.WriteLine("Area of rectangle is :{0}", (double)length * (double)breadth);
+            Console.WriteLine("Area of rectangle is :{0}", length * breadth);
 
             System.Threading.Thread.Sleep(2000);
 
@@ -43,7 +43,7 @@ namespace Practica02
             breadthfortriangle = double.Parse(Console.ReadLine());
             Console.WriteLine("Enter the Hieght for Triangle ");
             hieght = double.Parse(Console.ReadLine());
-            Console.WriteLine("Area of Triangle is:{0}", ((double)breadthfortriangle * (double)hieght) / 2);
+            Console.WriteLine("Area of Triangle is:{0}", (breadthfortriangle * hieght) / 2);
 
             System.Threading.Thread.Sleep(2000);
 
